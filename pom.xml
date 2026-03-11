@@ -122,6 +122,21 @@
             <artifactId>rocketmq-spring-boot-starter</artifactId>
             <version>2.3.1</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.rocketmq</groupId>
+            <artifactId>rocketmq-client</artifactId>
+            <version>5.3.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.rocketmq</groupId>
+            <artifactId>rocketmq-acl</artifactId>
+            <version>5.3.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.rocketmq</groupId>
+            <artifactId>rocketmq-srvutil</artifactId>
+            <version>5.3.2</version>
+        </dependency>
     </dependencies>
 
     <build>

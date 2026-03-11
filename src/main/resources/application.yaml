@@ -36,3 +36,10 @@ rocketmq:
   name-server: 127.0.0.1:9876
   producer:
     group: hmdp-producer-group
+hmdp:
+  rocketmq:
+    topics:
+      seckill-order: topic_seckill_order
+      order-created: topic_order_created
+    consumer-group:
+      seckill-order: hmdp-seckill-order-consumer

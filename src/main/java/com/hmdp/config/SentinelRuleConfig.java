@@ -27,7 +27,7 @@ public class SentinelRuleConfig {
         FlowRule voucherSeckillRule = new FlowRule();
         voucherSeckillRule.setResource(SentinelResources.VOUCHER_SECKILL);
         voucherSeckillRule.setGrade(RuleConstant.FLOW_GRADE_QPS);
-        voucherSeckillRule.setCount(100);
+        voucherSeckillRule.setCount(200);
         voucherSeckillRule.setLimitApp("default");
         rules.add(voucherSeckillRule);
 
